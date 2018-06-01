@@ -42,6 +42,11 @@ export const StyledMessage = styled.span`
   color: #fff;
 
   ${props =>
+    props.bold &&
+    css`
+    font-weight: bold;
+    `};
+  ${props =>
     props.darkest &&
     css`
       color: ${props => props.theme.darkest};
@@ -159,7 +164,7 @@ export const StyledMessage = styled.span`
   ${props =>
     props.tinyUnderlined &&
     css`
-      border-bottom: 1px solid ${props => props.theme.normal};
+      border-bottom: 1px solid #fff;
     `};
 
   ${props =>

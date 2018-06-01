@@ -54,10 +54,10 @@ export default class Home extends Component {
         </CenteredContainer>
         <Footer centered>
           <StyledMessage white secondAlternative small withIconRight>
-            Developed by Espen  
-          </StyledMessage><span style={{ fontSize: "0.8rem" }} aria-label="heart" role="img">
-          🖍️
-            </span>
+            This site is under development <span style={{ fontSize: "0.8rem" }} aria-label="sweat" role="img">
+          💙
+            </span> <StyledMessage white bold> - Espen</StyledMessage>
+          </StyledMessage>
         </Footer>
       </FullHeightContentWrapper>
     );
