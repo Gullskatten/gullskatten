@@ -4,7 +4,7 @@ import { scale } from "../utils/CommonAnimations";
 export const Shadow = styled.div`
   background: ${props => props.theme.shadow};
   border-radius: 50%;
-  animation: ${scale} 2s cubic-bezier(.38,0,.85,.98) infinite;
+  animation: ${scale} 1.5s cubic-bezier(.38,0,.85,.98) infinite;
   height: 10px;
   width: 180px;
 

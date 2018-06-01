@@ -104,6 +104,6 @@ export const CircularWrapper = styled.div`
   ${props =>
     props.floating &&
     css`
-      animation: ${float} 2s cubic-bezier(0.38, 0, 0.85, 0.98) infinite;
+      animation: ${float} 1.5s cubic-bezier(0.38, 0, 0.85, 0.98) infinite;
     `};
 `;
