@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { CircularWrapper } from "./Common";
-
+import Particles from 'react-particles-js';
+import particleOptions from '../assets/particle-options';
 import {
   CenteredContainer,
   FullHeightContentWrapper,
@@ -37,6 +38,7 @@ export default class Home extends Component {
   render() {
     return (
       <FullHeightContentWrapper>
+        <Particles style={{position: "absolute"}} params={particleOptions} />
         <CenteredContainer>
           <ColumnedFlexWrapper>
             <TitleWrapper>

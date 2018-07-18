@@ -8,6 +8,7 @@ import { ThemeProvider } from "styled-components";
 import { Subscribe } from "unstated";
 import ThemeContainer from "../containers/ThemeContainer";
 import Navbar from "./Navbar";
+
 export const history = createHistory();
 
 const AppContainer = styled.div`
