@@ -12,7 +12,7 @@ export const CircularWrapper = styled.div`
   border-radius: 50%;
   background: ${props => props.theme.dark};
   color: #fff;
-
+  
   ${props =>
     props.huge &&
     css`

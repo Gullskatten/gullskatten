@@ -1,6 +1,6 @@
 export default {
-  darkest: "#89023E",
-  dark: "#CC5A71",
+  darkest: "#C9283E",
+  dark: "#FF9E41",
   normal: "#5BC0BE",
   normalWithAlpha: "#5BC0BE55",
   light: "#EF2D56",

@@ -1,21 +1,18 @@
 export default {
   particles: {
     number: {
-      value: 15,
+      value: 25,
       density: {
         enable: true,
         value_area: 800
       }
     },
     color: {
-      value: "#FFF"
+      value: ["#FF9E41", "#C9283E", "#a5ed95", "#92e8e2"]
     },
     shape: {
       type: "circle",
-      stroke: {
-        width: 0,
-        color: "#000000"
-      },
+      
       polygon: {
         nb_sides: 5
       }
@@ -26,7 +23,7 @@ export default {
       anim: {
         enable: true,
         speed: 0.1,
-        opacity_min: 0.4,
+        opacity_min: 0.1,
         sync: false
       }
     },

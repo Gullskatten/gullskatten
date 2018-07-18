@@ -8,6 +8,7 @@ import { ThemeProvider } from "styled-components";
 import { Subscribe } from "unstated";
 import ThemeContainer from "../containers/ThemeContainer";
 import Navbar from "./Navbar";
+import dark from '../utils/theme.dark';
 
 export const history = createHistory();
 
@@ -28,7 +29,7 @@ class App extends Component {
       return (
         <Subscribe to={[ThemeContainer]}>
           { ({state}) => {
-            return <ThemeProvider theme={state.selectedTheme}>
+            return <ThemeProvider theme={dark}>
               <Router history={history}>
                 <AppContainer>
                     <Navbar/>
