@@ -32,6 +32,7 @@ export const CardContainer = styled.div`
   border-radius: 5px;
   padding: 20px;
   background: #fff;
+  height: 80vh;
 `;
 
 export const Footer = styled.div`
